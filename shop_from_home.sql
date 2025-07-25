@@ -86,9 +86,6 @@ CREATE TABLE `addsellerproduct` (
 -- Dumping data for table `addsellerproduct`
 --
 
-INSERT INTO `addsellerproduct` (`p_id`, `name`, `cname`, `mdat`, `edat`, `price`, `discount`, `quantity`, `description`, `cs_id`, `image`) VALUES
-(1, 'cucumber', 'Vegetables', '2022-06-12', '2024-06-15', 400, 30, 5, 'helo pro', 2, '../../admin/admincontroller/photo/uploadss1.jpg');
-
 -- --------------------------------------------------------
 
 --
@@ -104,9 +101,6 @@ CREATE TABLE `admin` (
 --
 -- Dumping data for table `admin`
 --
-
-INSERT INTO `admin` (`a_id`, `email`, `password`) VALUES
-(1, 'admin@gmail.com', '12345');
 
 -- --------------------------------------------------------
 
